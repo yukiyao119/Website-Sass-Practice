@@ -1,0 +1,48 @@
+.contact {
+  height: 100vh;
+  padding-top: 20vh;
+  display: block;
+  flex-direction: column;
+  // flex-wrap: wrap-reverse;
+  background: 
+    linear-gradient(
+      to right,
+      rgba($primary-color, 0.1),
+      rgba($primary-color, 0.2)
+    ),
+    url('/dist/img/aaron-nyc.jpg') center top;
+  background-size: cover;
+
+  h2 {
+    font-size: 4rem;
+    color: $secondary-color;
+    margin-bottom: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    color: $secondary-color;
+    margin-bottom: 2rem;
+  }
+
+  &__name {
+    // position: absolute;
+    margin-left: 4rem;
+    right: 5rem;
+  }
+
+  &__link {
+    position: initial;
+    margin-top: 2rem;
+    color: $secondary-color;
+    margin-bottom: 2rem;
+
+    a {
+      color: $secondary-color;
+    }
+  }
+
+
+
+
+}

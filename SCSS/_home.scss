@@ -1,0 +1,36 @@
+.home {
+  height: 100%;
+  padding-top: 20vh;
+  // overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    fade-out(white, 0.9) 0%,
+    fade-out(white, 0.9) 100%
+  ), url('../dist/img/_DSC9332color.jpg') center top;
+  background-size: cover;
+
+  &__area23 {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-size: 7rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      opacity: 0.6;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        opacity: 1;
+        transform: rotate3d(360deg);
+    } 
+    }
+  }
+
+  &__award {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    // border-bottom: 2px solid $secondary-color;
+  }
+
+}
